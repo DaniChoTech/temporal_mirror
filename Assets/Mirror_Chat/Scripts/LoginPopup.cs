@@ -13,5 +13,42 @@ public class LoginPopup : MonoBehaviour
 
     [SerializeField] private Text Text_Error;
 
+    private string _originNetworkAddress;
+    // private string m_originNetworkAddress;
+    // private string originNetworkAddress;
 
+    private void Awake()
+    {
+    }
+
+    private void Start()
+    {
+    }
+
+    private void OnEnable()
+    {
+    }
+
+    private void OnDisable()
+    {
+    }
+
+    private void Update()
+    {
+    }
+
+    public void OnClick_StartAsHost()
+    {
+
+    }
+
+    public void OnClick_StartAsClient()
+    {
+
+    }
+
+    public void OnValueChanged_ToggleButton(string userName)
+    {
+
+    }
 }
